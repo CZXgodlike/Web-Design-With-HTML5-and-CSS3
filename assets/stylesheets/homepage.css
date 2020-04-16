@@ -1,0 +1,97 @@
+body{
+width: 1400px;
+height: 1000px;
+background-color:black;
+}
+#top{
+position: absolute;
+width: 1400px;
+height: 130px;
+left: 0px;
+top: 0px;
+
+color: #FFFFFF;
+background: #000000;
+opacity: 0.5;
+}
+#logo{
+position: absolute;
+left: 5%;
+top: 1.5%;
+width: 255px;
+height: 85px;
+}
+#backgroud{
+position: absolute;
+left: 0px;
+top:0px;
+width:1400px;
+height:850px;
+}
+.index{
+  position: absolute;
+  top:9%;
+  font-family: "Zhi Mang Xing";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#about{
+left: 26.5%;
+}
+#albums{
+left: 41.57%;
+}
+#media{
+left: 58.5%;
+}
+#merch{
+left: 73.79%;
+}
+#tours{
+left: 88.93%;
+}
+.Social_Media_Img{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 950px;
+}
+#ins{
+  left: 873px;
+}
+#twit{
+  left: 1023px;
+}
+#fb{
+  left: 1173px;
+}
+.Social_Media_Text{
+position: absolute;
+top: 950px;
+width: 88px;
+height: 30px;
+
+font-family: Boogaloo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+#Ins{
+  left: 911px;
+}
+#Twit{
+  left: 1061px;
+}
+#Fb{
+  left:1211px
+}
