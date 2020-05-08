@@ -1,32 +1,26 @@
+a:link{
+  text-decoration: none;
+}
 
 body{
 width: 100%;
 height: 100%;
 background-color:black;
 }
-#top{
-position: fixed;
-width: 100%;
-height: 9%;
-left: 0px;
-top: 0px;
-
-color: #FFFFFF;
-background: #000000;
-opacity: 0.5;
-}
 #mySidebar{
   position:fixed;
-  top: 9%;
-  opacity: 0.5;
+  top: 75px;
+  font-family: "VT323";
+  font-size: 32px;
 }
 #logo{
-position: absolute;
-left: 5%;
-top: 25%;
-bottom:25%
-width: 18.2%;
-height: 65.4%;
+position: relative;
+left: 3%;
+height: 60px;
+}
+.background{
+  width:100%;
+  margin-top:75px;
 }
 #homepage_backgroud{
 position: absolute;
@@ -66,59 +60,26 @@ left: 0
   align-items: center;
   text-align: center;
 }
-#about{
-left: 26.5%;
+.bar_item{
+  font-family: "VT323";
+  font-size: 32px;
 }
-#albums{
-left: 41.57%;
+.Social_Media{
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  font-family: "Boogaloo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  color: #FFFFFF;
+  white-space:nowrap
 }
-#media{
-left: 58.5%;
-}
-#merch{
-left: 73.79%;
-}
-#tours{
-left: 88.93%;
-}
-.Social_Media_Img{
-  position: fixed;
-  width: 30px;
-  height: 30px;
-  top: 95%;
-}
-#ins{
-  left: 62.35%;
-}
-#twit{
-  left: 73%;
-}
-#fb{
-  left: 83.8%;
-}
-.Social_Media_Text{
-position: fixed;
-top: 95%;
-width: 88px;
-height: 30px;
-
-font-family: "Boogaloo";
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-}
-#Ins{
-  left: 65%;
-}
-#Twit{
-  left: 75.8%;
-}
-#Fb{
-  left:86.5%;
+.Social_Media_Text:hover{
+  text-decoration: underline;
 }
 #content{
   text-align: justify;
@@ -131,7 +92,12 @@ iframe{
   width: 80%;
   height: 80%;
 }
-
+.video_frame{
+  width:49vw;
+  height:28vw;
+  min-width:600px;
+  min-height:340px
+}
 
 
 .video-row{
@@ -155,4 +121,40 @@ iframe{
   font-size: 0;
   white-space: nowrap;
   padding-bottom: 10px; // Account for OS X scroll bar;
+}
+.merch_body{
+  background: linear-gradient(180deg, #84B1D0 0%, #92BAD5 21.35%, #9ABFD8 29.15%, #A2C4DB 29.16%, #A5C6DD 33.85%, #84B1D0 38.54%, #C6DBE9 44.27%, #FFFFFF 100%);
+}
+.goods{
+  width:80%;
+  height: 100%;
+  padding-top: 20%;
+  object-fit:cover;
+}
+.cell{
+  width:70vw;
+  position: relative;
+  text-align:left;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 60px !important;
+}
+.date_cell{
+  color:black;
+  font-family: "Alternate Gothic No2", Impact, sans-serif !important;
+  font-size:66px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 3px #000;
+  line-height: 95px;
+}
+.venue_cell{
+  font-family: Couture,sans-serif;
+  font-size: 48px;
+  font-weight:700;
+  text-transform: uppercase;
+  font-stretch: 100%;
+  line-height: 50px;
 }

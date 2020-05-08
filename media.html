@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zhi Mang Xing">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo Tamma 2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
     <link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" />
     <script src="./assets/javascripts/jquery.min.js"></script>
     <script src="./assets/javascripts/lightbox.min.js"></script>
@@ -16,38 +17,35 @@
   </head>
   <body>
 
-    <div id="top">
-      <img id="logo" src="./assets/images/M5-Stencil-black.png"></img>
-      <div class="index w3-hide-small w3-hide-medium" id="about">ABOUT</div>
-      <div class="index w3-hide-small w3-hide-medium" id="albums">ALBUMS</div>
-      <div class="index w3-hide-small w3-hide-medium" id="media">MEDIA</div>
-      <div class="index w3-hide-small w3-hide-medium" id="merch">MERCH</div>
-      <div class="index w3-hide-small w3-hide-medium" id="tours">TOURS</div>
-      <button class="w3-button w3-padding-large w3-hide-large w3-right" onclick="myFunction()" style="height:100%">☰</button>
-    </div>
+    <div style="width:100%">
 
-    <img class="Social_Media_Img" id="ins" src="./assets/images/social-instagram-icon.png"></img>
-    <img class="Social_Media_Img" id="twit" src="./assets/images/social-twitter-icon.png"></img>
-    <img class="Social_Media_Img" id="fb" src="./assets/images/social-facebook-icon.png"></img>
-    <div class="Social_Media_Text w3-hide-small w3-hide-medium" id="Ins">maroon5</div>
-    <div class="Social_Media_Text w3-hide-small w3-hide-medium" id="Twit">Maroon5</div>
-    <div class="Social_Media_Text w3-hide-small w3-hide-medium" id="Fb">Maroon5</div>
+      <div class="w3-top">
+        <div class="w3-bar w3-black w3-card-4" style="height:75px">
+          <a href="#" class="w3-bar-item">
+            <img src="./assets/images/M5-Stencil-black.png" id="logo"></img>
+          </a>
+          <a href="#band" class="w3-button w3-padding-large w3-hide-small w3-hide-medium bar_item" style="height:100%">About</a>
+          <a href="#band" class="w3-button w3-padding-large w3-hide-small w3-hide-medium bar_item" style="height:100%">Albums</a>
+          <a href="#band" class="w3-button w3-padding-large w3-hide-small w3-hide-medium bar_item" style="height:100%">Media</a>
+          <a href="#band" class="w3-button w3-padding-large w3-hide-small w3-hide-medium bar_item" style="height:100%">Merch</a>
+          <a href="#band" class="w3-button w3-padding-large w3-hide-small w3-hide-medium bar_item" style="height:100%">Tours</a>
+          <button class="w3-button w3-padding-large w3-hide-large w3-right" onclick="myFunction()" style="height:100%">☰</button>
+       </div>
+      </div>
 
-    <div class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" id="mySidebar">
-      <a href="#" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#" class="w3-bar-item w3-button">ALBUMS</a>
-      <a href="#" class="w3-bar-item w3-button">MEDIA</a>
-      <a href="#" class="w3-bar-item w3-button">MERCH</a>
-      <a href="#" class="w3-bar-item w3-button">TOURS</a>
-    </div>
+      <div class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" id="mySidebar">
+        <a href="#" class="w3-bar-item w3-button">About</a>
+        <a href="#" class="w3-bar-item w3-button">Albums</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+        <a href="#" class="w3-bar-item w3-button">Merch</a>
+        <a href="#" class="w3-bar-item w3-button">Tours</a>
+      </div>
 
     <div style="width:100%">
       <img src="./assets/images/background.jpg" style="width:100%">
+    </div>
 
-      <div class="w3-row w3-center" style="padding-top:64px">
-        <h2 class="w3-wide w3-opacity w3-text-white w3-xxlarge">Photos</h2>
-      </div>
-
+      <div>
       <div class="w3-row w3-padding-32"> <!--images-->
         <div class="w3-quarter w3-center w3-hide-medium w3-hide-small">
           <a href="./assets/images/1.jpg" data-lightbox="1">
@@ -90,6 +88,7 @@
             <img src="./assets/images/8.jpg" class="w3-round w3-margin-bottom w3-hover-opacity" style="width:80%"></img>
           </a>
         </div>
+
 
         <div class="row w3-hide-large">
           <div class="row__inner">
@@ -135,22 +134,18 @@
             </div>
           </div>
         </div>
-
-
       </div>
+    </div>
 
-      <div class="w3-row w3-center w3-padding-32">
-        <h2 class="w3-wide w3-opacity w3-text-white w3-xxlarge">Music Videos</h2>
-      </div>
-
+    <div style="background-color:FloralWhite; padding-top:32px">
       <div class="w3-row w3-center"><!--videos-->
-        <div class="w3-half w3-center">
-         <div style="width:49vw; height:28vw" class="w3-center w3-show-inline-block">
+        <div class="w3-show-inline-block w3-center">
+         <div class="video_frame">
            <iframe src="https://www.youtube.com/embed/SlPhMPnQ58k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
         </div>
-        <div class=" w3-center w3-show-inline-block">
-         <div style="width:49vw; height:28vw" >
+        <div class="w3-show-inline-block w3-center">
+         <div class="video_frame">
            <iframe src="https://www.youtube.com/embed/qpgTC9MDx1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
         </div>
@@ -158,17 +153,40 @@
 
       <div class="w3-row w3-center"><!--videos-->
         <div class="w3-show-inline-block w3-center">
-         <div style="width:49vw; height:28vw">
+         <div class="video_frame">
            <iframe src="https://www.youtube.com/embed/fwK7ggA3-bU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
         </div>
         <div class="w3-show-inline-block w3-center">
-         <div style="width:49vw; height:28vw" class="w3-center">
+         <div class="video_frame">
            <iframe src="https://www.youtube.com/embed/09R8_2nJtjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
         </div>
       </div>
     </div>
+    </div>
+
+    <div class="Social_Media w3-padding-16 w3-card-4" style="background-color:black;">
+      <div class="w3-hide-small w3-hide-medium w3-right w3-margin-right Social_Media_Text">
+        <a href="https://www.facebook.com/maroon5/">Maroon5</a>
+      </div>
+      <div class="w3-right w3-margin-right">
+       <a href="https://www.facebook.com/maroon5/"><img src="./assets/images/social-facebook-icon.png"></img></a>
+      </div>
+      <div class="w3-hide-small w3-hide-medium w3-right w3-margin-right Social_Media_Text">
+        <a href="https://twitter.com/maroon5?lang=en">Maroon5</a>
+      </div>
+      <div class="w3-right w3-margin-right">
+       <a href="https://twitter.com/maroon5?lang=en"><img src="./assets/images/social-twitter-icon.png"></img></a>
+      </div>
+      <div class="w3-hide-small w3-hide-medium w3-right w3-margin-right Social_Media_Text">
+        <a href="https://www.instagram.com/maroon5/">Maroon5</a>
+      </div>
+      <div class="w3-right w3-margin-right">
+       <a href="https://www.instagram.com/maroon5/"><img src="./assets/images/social-instagram-icon.png"></img></a>
+      </div>
+    </div>
+  </div>
     <script>
     function myFunction() {
       var x = document.getElementById("mySidebar");
